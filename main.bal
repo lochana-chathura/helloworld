@@ -3,7 +3,7 @@ import ballerina/http;
 service / on new http:Listener(9090) {
 
     // This function responds with `string` value `Hello, World!` to HTTP GET requests.
-    resource function get greeting5() returns string {
-        return "Hello, World5!";
+    resource function get greeting6() returns string {
+        return "Hello, World6!";
     }
 }
